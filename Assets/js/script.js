@@ -8,7 +8,7 @@ function writePassword() {
 
   //USE A WINDOW PROMPT METHOD TO ASK THE USER TO CREATE A PASSWORD THAT IS NO SHORTER THAN 8 CHARACTERS AND NO LONGER THAN 128 CHARACTERS
   var passwordLength = prompt(
-    "Create a password! Make sure the length is greater than 8 and less than 128 characters:"
+    "Create a password! Pick a number between 8 and 128."
   );
   //EVAULATE THE PASSWORD LENGTH TO A BE TRUTHY AND A NUMBER VALUE AS OPPOSED TO A STRING VALUE FROM THE USERS INPUT
 
