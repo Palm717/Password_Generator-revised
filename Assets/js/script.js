@@ -35,10 +35,10 @@ function writePassword() {
   }
   //NEXT WE DECLARE OUR VARIABLES THAT PROMPT OUR USER WITH A CONTINUE WINDOW METHOD WHICH ALLOWS FOR AN ALWAYS TRUTHY VALUE TO BE RETURNED. IF THE USER DOESN'T CONTINUE WITH THE WINDOW METHOD THE VALUE RETURNS FALSY AND THE CODE WOULDN'T RUN TO BEGIN WITH. THIS REQUIRES USER INPUT.
 
-  var lowercase = confirm("Pick some lowercase letters!");
-  var uppercase = confirm("Pick some uppercase letters!");
-  var numVal = confirm("Pick some numbers!");
-  var specialChar = confirm("Pick some special characters!");
+  var lowercase = confirm("Generating lowercase characters!");
+  var uppercase = confirm("Generating uppercase characters!");
+  var numVal = confirm("Picking some numbers!");
+  var specialChar = confirm("Picking some special characters!");
 
   //IT IS A REQUIREMENT FOR AT LEAST ONE OF THOSE VALUES FROM EACH WINDOW METHOD PROMPT OF CONFIRM TO BE USED. SO WE MUST USE AN IF STATEMENT TO CHECK FOR TRUTHINESS
 
